@@ -5,6 +5,10 @@
 #  \__|_| |_|_|\__,_|\__, |\___/ 
 #                    |___/        
 
+dotfiles add CHANGELOG README
+dotfiles commit -m "Updated README"
+dotfiles push
+
 # -------------------------------
 ## Bash - #!/bin/bash
 # -------------------------------
