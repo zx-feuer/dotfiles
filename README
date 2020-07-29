@@ -5,16 +5,14 @@
 #  \__|_| |_|_|\__,_|\__, |\___/ 
 #                    |___/        
 
-dotfiles add CHANGELOG README
-dotfiles commit -m "Updated README"
-dotfiles push
+
 
 # -------------------------------
 ## Bash - #!/bin/bash
 # -------------------------------
 
-[ ] .bashrc
-[ ] .bash_profile
+[x] .bashrc
+[x] .bash_profile
 [ ] .bash_logout
 [ ] .bash_history
 [ ] .bash_aliases

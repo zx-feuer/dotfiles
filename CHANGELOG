@@ -6,6 +6,15 @@
 #  |___/       
 # 
 
+# Wed 29 Jul 2020 05:39:47 PM -03
+# -------------------------------
+## Tracking files   |
+# -------------------------------
+
+dotfiles add CHANGELOG README
+dotfiles commit -m "Updated README"
+dotfiles push
+
 # Wed 29 Jul 2020 05:02:18 PM -03
 # -------------------------------
 ## README - /home/thiago    |
