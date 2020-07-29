@@ -10,10 +10,26 @@
 " # ~/.vimrc
 " -------------------------------
 
+"
+" EDITOR
+"
+
 syntax on
 let mapleader=' '
 let maplocalleader=' '
-nnoremap <leader>sv :source ~/.vimrc<cr>
 filetype plugin indent on
-set background=dark
 colorscheme industry
+set background=dark
+set backspace=indent,eol,start
+set encoding=utf-8
+set hidden
+set number
+
+"
+" SHORTCUT
+"
+
+nnoremap <leader>sv :source ~/.vimrc<cr>
+nnoremap <leader>vs :vsplit ~/.vimrc<cr>
+nnoremap <leader>w :w<cr>
+nnoremap <leader>q :q<cr>

@@ -13,15 +13,15 @@
 
 [x] .bashrc
 [x] .bash_profile
-[ ] .bash_logout
+[x] .bash_logout
 [ ] .bash_history
-[ ] .bash_aliases
+[x] .bash_aliases
 
 # -------------------------------
 ## Vim - ~/.vimrc
 # -------------------------------
 
-[ ] .vimrc
+[x] .vimrc
 
 # -------------------------------
 ## Tmux - ~/.tmux.conf
