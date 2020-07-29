@@ -1,0 +1,16 @@
+#        _ _   
+#   __ _(_) |_ 
+#  / _` | | __|
+# | (_| | | |_ 
+#  \__, |_|\__|
+#  |___/       
+# 
+
+# Wed 29 Jul 2020 05:06:57 PM -03
+# -------------------------------
+## dotfiles - $HOME = ~/.files  |
+# -------------------------------
+
+git init --bare $HOME/.files
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.files/ --work-tree=$HOME'
+dotfiles config status.showUntrackedFiles no
