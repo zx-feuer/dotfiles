@@ -21,16 +21,25 @@ dotfiles push
 # -------------------------------
 
 .
-├── CHANGELOG
 ├── Desktop
 ├── Documents
 ├── Downloads
 ├── Music
 ├── Pictures
 ├── Public
-├── README
 ├── Templates
-└── Videos
+├── Videos
+
+---
+
+├── .bash_aliases
+├── .bash_logout
+├── .bash_profile
+├── .bashrc
+├── .vimrc
+├── CHANGELOG
+└── README
+
 
 # Wed 29 Jul 2020 05:06:57 PM -03
 # -------------------------------

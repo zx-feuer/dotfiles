@@ -5,7 +5,14 @@
 #  \__|_| |_|_|\__,_|\__, |\___/ 
 #                    |___/        
 
-
+.
+├── .bash_aliases
+├── .bash_logout
+├── .bash_profile
+├── .bashrc
+├── .vimrc
+├── CHANGELOG
+└── README
 
 # -------------------------------
 ## Bash - #!/bin/bash
