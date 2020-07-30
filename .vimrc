@@ -79,6 +79,8 @@
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'ap/vim-css-color'
+    Plug 'preservim/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'airblade/vim-gitgutter'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -86,3 +88,21 @@
 
   colorscheme nord
   let g:airline_theme='nord'
+  let g:gitgutter_map_keys=0
+  let g:gitgutter_map_keys=0
+  let NERDTreeShowHidden=1
+  map <C-n> :NERDTreeToggle<CR>
+  autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" && winnr('$') > 1 | b# | endif
+  autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+  autocmd BufWritePost * GitGutter
+  autocmd StdinReadPre * let s:std_in=1
+  autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
+"
+"
+"
+
+let g:netrw_sort_sequence='[\/]$,*'
+let g:netrw_list_style=1
+let g:netrw_banner=0
+let g:netrw_browse_split=4
+let g:netrw_winsize=25
